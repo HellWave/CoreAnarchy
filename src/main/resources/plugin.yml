@@ -1,0 +1,10 @@
+name: CoreAnarchy
+version: '${project.version}'
+main: hell.lamacoreanarchy.LamaCoreAnarchy
+api-version: '1.16'
+commands:
+  coreban:
+    description: Команда для бана игрока с анимацией
+    usage: /coreban <игрок>
+    permission: coreban.ban
+    permission-message: "Ути бозе нету прав"
